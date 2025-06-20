@@ -51,5 +51,5 @@ for doc in documents:
 faiss_index = FAISS.from_documents(documents, hf_embeddings)
 
 # Optionally save to disk
-faiss_index.save_local("faiss_grocery_index_hf")
+faiss_index.save_local("app/db/faiss_grocery_index_hf")
 print("FAISS index created and saved successfully.")
