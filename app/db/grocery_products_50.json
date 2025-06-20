@@ -1,0 +1,1686 @@
+[
+  {
+    "title": "Product Information",
+    "content": [
+      {
+        "product_id": "P-001",
+        "product_name": "Baby Shampoo",
+        "category": "Baby Products",
+        "sub_category": "Wipes",
+        "description": "High-quality baby shampoo sourced locally.",
+        "price": 687,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "In Stock",
+        "unit": "1kg",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "vegan",
+          "organic",
+          "snack"
+        ],
+        "rating": 5.0,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "Tastes great!",
+            "rating": 4
+          },
+          {
+            "user": "Rafi",
+            "comment": "Would buy again.",
+            "rating": 3
+          },
+          {
+            "user": "Nayeem",
+            "comment": "Highly recommended.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "families",
+          "athletes"
+        ]
+      },
+      {
+        "product_id": "P-002",
+        "product_name": "Frozen Nuggets",
+        "category": "Frozen",
+        "sub_category": "Ice Cream",
+        "description": "High-quality frozen nuggets sourced locally.",
+        "price": 414,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "In Stock",
+        "unit": "250g",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "breakfast",
+          "vegan"
+        ],
+        "rating": 4.8,
+        "reviews": [
+          {
+            "user": "Aisha",
+            "comment": "A bit expensive.",
+            "rating": 3
+          }
+        ],
+        "recommended_for": [
+          "kids",
+          "athletes"
+        ]
+      },
+      {
+        "product_id": "P-003",
+        "product_name": "Ice Cream",
+        "category": "Frozen",
+        "sub_category": "Frozen Pizza",
+        "description": "High-quality ice cream sourced locally.",
+        "price": 388,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "In Stock",
+        "unit": "250g",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "healthy",
+          "breakfast",
+          "vegan",
+          "gluten-free"
+        ],
+        "rating": 3.8,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "Highly recommended.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-004",
+        "product_name": "Cheese",
+        "category": "Dairy & Eggs",
+        "sub_category": "Eggs",
+        "description": "High-quality cheese sourced locally.",
+        "price": 769,
+        "currency": "BDT",
+        "discount": 15,
+        "stock_status": "Out of Stock",
+        "unit": "1kg",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "gluten-free",
+          "breakfast"
+        ],
+        "rating": 3.8,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "Highly recommended.",
+            "rating": 5
+          },
+          {
+            "user": "Tania",
+            "comment": "Tastes great!",
+            "rating": 3
+          },
+          {
+            "user": "Aisha",
+            "comment": "Highly recommended.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "vegetarians",
+          "health-conscious"
+        ]
+      },
+      {
+        "product_id": "P-005",
+        "product_name": "Baby Shampoo",
+        "category": "Baby Products",
+        "sub_category": "Baby Lotion",
+        "description": "High-quality baby shampoo sourced locally.",
+        "price": 632,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Low Stock",
+        "unit": "250g",
+        "brand": "Happy Harvest",
+        "origin": "Bangladesh",
+        "tags": [
+          "healthy",
+          "fresh"
+        ],
+        "rating": 4.1,
+        "reviews": [
+          {
+            "user": "Aisha",
+            "comment": "A bit expensive.",
+            "rating": 3
+          },
+          {
+            "user": "Farhan",
+            "comment": "Tastes great!",
+            "rating": 5
+          },
+          {
+            "user": "Farhan",
+            "comment": "Tastes great!",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-006",
+        "product_name": "Coffee",
+        "category": "Beverages",
+        "sub_category": "Coffee",
+        "description": "High-quality coffee sourced locally.",
+        "price": 267,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "Out of Stock",
+        "unit": "12pcs",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "gluten-free",
+          "protein",
+          "organic",
+          "vegan"
+        ],
+        "rating": 3.5,
+        "reviews": [],
+        "recommended_for": [
+          "vegetarians",
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-007",
+        "product_name": "Cookies",
+        "category": "Bakery",
+        "sub_category": "Bread",
+        "description": "High-quality cookies sourced locally.",
+        "price": 84,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "Low Stock",
+        "unit": "1kg",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "breakfast",
+          "snack"
+        ],
+        "rating": 4.4,
+        "reviews": [],
+        "recommended_for": [
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-008",
+        "product_name": "Banana",
+        "category": "Fruits",
+        "sub_category": "Grapes",
+        "description": "High-quality banana sourced locally.",
+        "price": 153,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "Out of Stock",
+        "unit": "250g",
+        "brand": "Happy Harvest",
+        "origin": "Bangladesh",
+        "tags": [
+          "breakfast",
+          "fresh",
+          "organic",
+          "snack"
+        ],
+        "rating": 4.7,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "Would buy again.",
+            "rating": 4
+          },
+          {
+            "user": "Nayeem",
+            "comment": "Very good quality!",
+            "rating": 4
+          },
+          {
+            "user": "Tania",
+            "comment": "Highly recommended.",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "vegetarians",
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-009",
+        "product_name": "Orange (Organic)",
+        "category": "Fruits",
+        "sub_category": "Apple",
+        "description": "High-quality orange sourced locally.",
+        "price": 644,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Out of Stock",
+        "unit": "250g",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "healthy",
+          "organic",
+          "vegan",
+          "protein"
+        ],
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "Tania",
+            "comment": "Very good quality!",
+            "rating": 3
+          },
+          {
+            "user": "Aisha",
+            "comment": "A bit expensive.",
+            "rating": 3
+          }
+        ],
+        "recommended_for": [
+          "families",
+          "athletes"
+        ]
+      },
+      {
+        "product_id": "P-010",
+        "product_name": "Sugar (Organic)",
+        "category": "Pantry",
+        "sub_category": "Sugar",
+        "description": "High-quality sugar sourced locally.",
+        "price": 148,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "Low Stock",
+        "unit": "12pcs",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "snack",
+          "vegan",
+          "breakfast"
+        ],
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "A bit expensive.",
+            "rating": 3
+          },
+          {
+            "user": "Nayeem",
+            "comment": "Tastes great!",
+            "rating": 5
+          },
+          {
+            "user": "Rafi",
+            "comment": "Highly recommended.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "athletes",
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-011",
+        "product_name": "Cookies",
+        "category": "Bakery",
+        "sub_category": "Croissant",
+        "description": "High-quality cookies sourced locally.",
+        "price": 156,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "In Stock",
+        "unit": "500g",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "organic",
+          "vegan",
+          "healthy"
+        ],
+        "rating": 5.0,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "Highly recommended.",
+            "rating": 3
+          }
+        ],
+        "recommended_for": [
+          "kids",
+          "health-conscious"
+        ]
+      },
+      {
+        "product_id": "P-012",
+        "product_name": "Frozen Peas",
+        "category": "Frozen",
+        "sub_category": "Frozen Paratha",
+        "description": "High-quality frozen peas sourced locally.",
+        "price": 524,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "In Stock",
+        "unit": "500g",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "organic",
+          "fresh"
+        ],
+        "rating": 4.5,
+        "reviews": [],
+        "recommended_for": [
+          "health-conscious"
+        ]
+      },
+      {
+        "product_id": "P-013",
+        "product_name": "Frozen Pizza (Organic)",
+        "category": "Frozen",
+        "sub_category": "Frozen Nuggets",
+        "description": "High-quality frozen pizza sourced locally.",
+        "price": 656,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "Low Stock",
+        "unit": "250g",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "gluten-free",
+          "breakfast",
+          "healthy",
+          "snack"
+        ],
+        "rating": 4.6,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "A bit expensive.",
+            "rating": 5
+          },
+          {
+            "user": "Tania",
+            "comment": "A bit expensive.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "vegetarians"
+        ]
+      },
+      {
+        "product_id": "P-014",
+        "product_name": "Spinach",
+        "category": "Vegetables",
+        "sub_category": "Spinach",
+        "description": "High-quality spinach sourced locally.",
+        "price": 641,
+        "currency": "BDT",
+        "discount": 15,
+        "stock_status": "Low Stock",
+        "unit": "1kg",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "gluten-free",
+          "healthy"
+        ],
+        "rating": 4.0,
+        "reviews": [],
+        "recommended_for": [
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-015",
+        "product_name": "Frozen Pizza (Organic)",
+        "category": "Frozen",
+        "sub_category": "Frozen Paratha",
+        "description": "High-quality frozen pizza sourced locally.",
+        "price": 420,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "Low Stock",
+        "unit": "1kg",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "protein",
+          "vegan",
+          "snack"
+        ],
+        "rating": 4.6,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "Tastes great!",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "athletes",
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-016",
+        "product_name": "Chicken",
+        "category": "Meat & Fish",
+        "sub_category": "Fish",
+        "description": "High-quality chicken sourced locally.",
+        "price": 250,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "In Stock",
+        "unit": "1kg",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "vegan",
+          "organic",
+          "breakfast",
+          "fresh"
+        ],
+        "rating": 3.6,
+        "reviews": [],
+        "recommended_for": [
+          "health-conscious",
+          "athletes"
+        ]
+      },
+      {
+        "product_id": "P-017",
+        "product_name": "Coconut Water",
+        "category": "Beverages",
+        "sub_category": "Lassi",
+        "description": "High-quality coconut water sourced locally.",
+        "price": 484,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "Out of Stock",
+        "unit": "500g",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "vegan",
+          "healthy",
+          "gluten-free"
+        ],
+        "rating": 3.6,
+        "reviews": [
+          {
+            "user": "Rafi",
+            "comment": "Would buy again.",
+            "rating": 3
+          },
+          {
+            "user": "Tania",
+            "comment": "Highly recommended.",
+            "rating": 4
+          },
+          {
+            "user": "Aisha",
+            "comment": "Would buy again.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "health-conscious"
+        ]
+      },
+      {
+        "product_id": "P-018",
+        "product_name": "Wipes (Organic)",
+        "category": "Baby Products",
+        "sub_category": "Baby Shampoo",
+        "description": "High-quality wipes sourced locally.",
+        "price": 184,
+        "currency": "BDT",
+        "discount": 15,
+        "stock_status": "In Stock",
+        "unit": "500g",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "protein",
+          "vegan"
+        ],
+        "rating": 4.0,
+        "reviews": [],
+        "recommended_for": [
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-019",
+        "product_name": "Butter",
+        "category": "Dairy & Eggs",
+        "sub_category": "Yogurt",
+        "description": "High-quality butter sourced locally.",
+        "price": 281,
+        "currency": "BDT",
+        "discount": 15,
+        "stock_status": "Out of Stock",
+        "unit": "1L",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "vegan",
+          "protein",
+          "organic",
+          "snack"
+        ],
+        "rating": 4.5,
+        "reviews": [],
+        "recommended_for": [
+          "kids",
+          "vegetarians"
+        ]
+      },
+      {
+        "product_id": "P-020",
+        "product_name": "Green Tea (Organic)",
+        "category": "Beverages",
+        "sub_category": "Lassi",
+        "description": "High-quality green tea sourced locally.",
+        "price": 565,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "In Stock",
+        "unit": "250g",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "breakfast",
+          "healthy"
+        ],
+        "rating": 4.3,
+        "reviews": [
+          {
+            "user": "Tania",
+            "comment": "A bit expensive.",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "vegetarians"
+        ]
+      },
+      {
+        "product_id": "P-021",
+        "product_name": "Tomato (Organic)",
+        "category": "Vegetables",
+        "sub_category": "Broccoli",
+        "description": "High-quality tomato sourced locally.",
+        "price": 226,
+        "currency": "BDT",
+        "discount": 15,
+        "stock_status": "Out of Stock",
+        "unit": "250g",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "snack",
+          "fresh",
+          "gluten-free",
+          "breakfast"
+        ],
+        "rating": 4.0,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "Very good quality!",
+            "rating": 3
+          }
+        ],
+        "recommended_for": [
+          "athletes",
+          "health-conscious"
+        ]
+      },
+      {
+        "product_id": "P-022",
+        "product_name": "Beef (Organic)",
+        "category": "Meat & Fish",
+        "sub_category": "Fish",
+        "description": "High-quality beef sourced locally.",
+        "price": 374,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "Out of Stock",
+        "unit": "12pcs",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "breakfast",
+          "organic",
+          "healthy"
+        ],
+        "rating": 4.1,
+        "reviews": [
+          {
+            "user": "Tania",
+            "comment": "Tastes great!",
+            "rating": 5
+          },
+          {
+            "user": "Rafi",
+            "comment": "A bit expensive.",
+            "rating": 3
+          },
+          {
+            "user": "Aisha",
+            "comment": "Very good quality!",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "health-conscious",
+          "vegetarians"
+        ]
+      },
+      {
+        "product_id": "P-023",
+        "product_name": "Ice Cream",
+        "category": "Frozen",
+        "sub_category": "Frozen Peas",
+        "description": "High-quality ice cream sourced locally.",
+        "price": 140,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Out of Stock",
+        "unit": "1kg",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "vegan",
+          "protein",
+          "organic"
+        ],
+        "rating": 3.8,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "Tastes great!",
+            "rating": 3
+          },
+          {
+            "user": "Aisha",
+            "comment": "Very good quality!",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-024",
+        "product_name": "Green Tea",
+        "category": "Beverages",
+        "sub_category": "Orange Juice",
+        "description": "High-quality green tea sourced locally.",
+        "price": 274,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "In Stock",
+        "unit": "1kg",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "organic",
+          "vegan",
+          "snack"
+        ],
+        "rating": 4.8,
+        "reviews": [
+          {
+            "user": "Tania",
+            "comment": "Tastes great!",
+            "rating": 5
+          },
+          {
+            "user": "Farhan",
+            "comment": "Very good quality!",
+            "rating": 4
+          },
+          {
+            "user": "Nayeem",
+            "comment": "Tastes great!",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "health-conscious",
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-025",
+        "product_name": "Fish (Organic)",
+        "category": "Meat & Fish",
+        "sub_category": "Beef",
+        "description": "High-quality fish sourced locally.",
+        "price": 298,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "In Stock",
+        "unit": "250g",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "vegan",
+          "breakfast",
+          "organic"
+        ],
+        "rating": 4.7,
+        "reviews": [
+          {
+            "user": "Rafi",
+            "comment": "Tastes great!",
+            "rating": 4
+          },
+          {
+            "user": "Rafi",
+            "comment": "Very good quality!",
+            "rating": 5
+          },
+          {
+            "user": "Aisha",
+            "comment": "Tastes great!",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "vegetarians"
+        ]
+      },
+      {
+        "product_id": "P-026",
+        "product_name": "Yogurt (Organic)",
+        "category": "Dairy & Eggs",
+        "sub_category": "Milk",
+        "description": "High-quality yogurt sourced locally.",
+        "price": 403,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "In Stock",
+        "unit": "12pcs",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "snack",
+          "protein",
+          "healthy",
+          "breakfast"
+        ],
+        "rating": 4.7,
+        "reviews": [
+          {
+            "user": "Aisha",
+            "comment": "Tastes great!",
+            "rating": 5
+          },
+          {
+            "user": "Tania",
+            "comment": "A bit expensive.",
+            "rating": 4
+          },
+          {
+            "user": "Aisha",
+            "comment": "Would buy again.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-027",
+        "product_name": "Popcorn",
+        "category": "Snacks",
+        "sub_category": "Popcorn",
+        "description": "High-quality popcorn sourced locally.",
+        "price": 763,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Out of Stock",
+        "unit": "12pcs",
+        "brand": "GreenLeaf Organics",
+        "origin": "Bangladesh",
+        "tags": [
+          "organic",
+          "breakfast"
+        ],
+        "rating": 5.0,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "A bit expensive.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "athletes",
+          "health-conscious"
+        ]
+      },
+      {
+        "product_id": "P-028",
+        "product_name": "Mango (Organic)",
+        "category": "Fruits",
+        "sub_category": "Banana",
+        "description": "High-quality mango sourced locally.",
+        "price": 573,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "Low Stock",
+        "unit": "1kg",
+        "brand": "Happy Harvest",
+        "origin": "Bangladesh",
+        "tags": [
+          "gluten-free",
+          "organic"
+        ],
+        "rating": 3.6,
+        "reviews": [
+          {
+            "user": "Rafi",
+            "comment": "Very good quality!",
+            "rating": 5
+          },
+          {
+            "user": "Aisha",
+            "comment": "Highly recommended.",
+            "rating": 3
+          },
+          {
+            "user": "Rafi",
+            "comment": "Would buy again.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "health-conscious",
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-029",
+        "product_name": "Chocolate",
+        "category": "Snacks",
+        "sub_category": "Popcorn",
+        "description": "High-quality chocolate sourced locally.",
+        "price": 535,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Low Stock",
+        "unit": "500g",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "gluten-free",
+          "organic",
+          "healthy"
+        ],
+        "rating": 3.8,
+        "reviews": [],
+        "recommended_for": [
+          "vegetarians",
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-030",
+        "product_name": "Biscuits",
+        "category": "Snacks",
+        "sub_category": "Nuts",
+        "description": "High-quality biscuits sourced locally.",
+        "price": 349,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "In Stock",
+        "unit": "1kg",
+        "brand": "Happy Harvest",
+        "origin": "Bangladesh",
+        "tags": [
+          "healthy",
+          "snack",
+          "protein"
+        ],
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "Tania",
+            "comment": "A bit expensive.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-031",
+        "product_name": "Chocolate",
+        "category": "Snacks",
+        "sub_category": "Biscuits",
+        "description": "High-quality chocolate sourced locally.",
+        "price": 710,
+        "currency": "BDT",
+        "discount": 15,
+        "stock_status": "In Stock",
+        "unit": "250g",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "breakfast",
+          "protein",
+          "vegan"
+        ],
+        "rating": 4.4,
+        "reviews": [],
+        "recommended_for": [
+          "vegetarians"
+        ]
+      },
+      {
+        "product_id": "P-032",
+        "product_name": "Ice Cream",
+        "category": "Frozen",
+        "sub_category": "Frozen Peas",
+        "description": "High-quality ice cream sourced locally.",
+        "price": 110,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "In Stock",
+        "unit": "250g",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "vegan",
+          "organic",
+          "healthy",
+          "fresh"
+        ],
+        "rating": 3.8,
+        "reviews": [
+          {
+            "user": "Rafi",
+            "comment": "Tastes great!",
+            "rating": 3
+          },
+          {
+            "user": "Tania",
+            "comment": "A bit expensive.",
+            "rating": 3
+          },
+          {
+            "user": "Nayeem",
+            "comment": "A bit expensive.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-033",
+        "product_name": "Baby Shampoo",
+        "category": "Baby Products",
+        "sub_category": "Baby Food",
+        "description": "High-quality baby shampoo sourced locally.",
+        "price": 710,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "In Stock",
+        "unit": "1L",
+        "brand": "Happy Harvest",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "healthy",
+          "snack",
+          "vegan"
+        ],
+        "rating": 3.8,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "Very good quality!",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "health-conscious",
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-034",
+        "product_name": "Bread (Organic)",
+        "category": "Bakery",
+        "sub_category": "Croissant",
+        "description": "High-quality bread sourced locally.",
+        "price": 120,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "Out of Stock",
+        "unit": "1kg",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "snack"
+        ],
+        "rating": 4.4,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "Highly recommended.",
+            "rating": 4
+          },
+          {
+            "user": "Nayeem",
+            "comment": "Would buy again.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-035",
+        "product_name": "Chicken",
+        "category": "Meat & Fish",
+        "sub_category": "Beef",
+        "description": "High-quality chicken sourced locally.",
+        "price": 253,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "In Stock",
+        "unit": "1kg",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "organic",
+          "gluten-free",
+          "snack",
+          "breakfast"
+        ],
+        "rating": 4.3,
+        "reviews": [
+          {
+            "user": "Rafi",
+            "comment": "Would buy again.",
+            "rating": 3
+          },
+          {
+            "user": "Nayeem",
+            "comment": "A bit expensive.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "kids",
+          "vegetarians"
+        ]
+      },
+      {
+        "product_id": "P-036",
+        "product_name": "Orange",
+        "category": "Fruits",
+        "sub_category": "Orange",
+        "description": "High-quality orange sourced locally.",
+        "price": 728,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Out of Stock",
+        "unit": "250g",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "breakfast",
+          "organic",
+          "protein",
+          "snack"
+        ],
+        "rating": 4.4,
+        "reviews": [],
+        "recommended_for": [
+          "athletes",
+          "health-conscious"
+        ]
+      },
+      {
+        "product_id": "P-037",
+        "product_name": "Popcorn",
+        "category": "Snacks",
+        "sub_category": "Nuts",
+        "description": "High-quality popcorn sourced locally.",
+        "price": 636,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "In Stock",
+        "unit": "1kg",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "snack",
+          "vegan",
+          "fresh",
+          "organic"
+        ],
+        "rating": 4.1,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "Tastes great!",
+            "rating": 5
+          },
+          {
+            "user": "Nayeem",
+            "comment": "A bit expensive.",
+            "rating": 5
+          },
+          {
+            "user": "Rafi",
+            "comment": "A bit expensive.",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-038",
+        "product_name": "Coconut Water",
+        "category": "Beverages",
+        "sub_category": "Coffee",
+        "description": "High-quality coconut water sourced locally.",
+        "price": 126,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Low Stock",
+        "unit": "12pcs",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "protein",
+          "vegan"
+        ],
+        "rating": 4.7,
+        "reviews": [
+          {
+            "user": "Rafi",
+            "comment": "Highly recommended.",
+            "rating": 4
+          },
+          {
+            "user": "Rafi",
+            "comment": "A bit expensive.",
+            "rating": 4
+          },
+          {
+            "user": "Aisha",
+            "comment": "Very good quality!",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "families",
+          "vegetarians"
+        ]
+      },
+      {
+        "product_id": "P-039",
+        "product_name": "Tomato",
+        "category": "Vegetables",
+        "sub_category": "Carrot",
+        "description": "High-quality tomato sourced locally.",
+        "price": 390,
+        "currency": "BDT",
+        "discount": 15,
+        "stock_status": "Low Stock",
+        "unit": "1kg",
+        "brand": "Nature's Basket",
+        "origin": "Bangladesh",
+        "tags": [
+          "healthy",
+          "organic",
+          "protein",
+          "fresh"
+        ],
+        "rating": 3.5,
+        "reviews": [
+          {
+            "user": "Rafi",
+            "comment": "Highly recommended.",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-040",
+        "product_name": "Butter",
+        "category": "Dairy & Eggs",
+        "sub_category": "Cheese",
+        "description": "High-quality butter sourced locally.",
+        "price": 93,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Low Stock",
+        "unit": "1kg",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "snack",
+          "healthy",
+          "breakfast",
+          "protein"
+        ],
+        "rating": 3.7,
+        "reviews": [
+          {
+            "user": "Rafi",
+            "comment": "Very good quality!",
+            "rating": 5
+          },
+          {
+            "user": "Nayeem",
+            "comment": "Very good quality!",
+            "rating": 3
+          }
+        ],
+        "recommended_for": [
+          "families",
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-041",
+        "product_name": "Grapes (Organic)",
+        "category": "Fruits",
+        "sub_category": "Apple",
+        "description": "High-quality grapes sourced locally.",
+        "price": 689,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "In Stock",
+        "unit": "500g",
+        "brand": "Happy Harvest",
+        "origin": "Bangladesh",
+        "tags": [
+          "protein",
+          "breakfast"
+        ],
+        "rating": 4.2,
+        "reviews": [
+          {
+            "user": "Tania",
+            "comment": "Highly recommended.",
+            "rating": 5
+          },
+          {
+            "user": "Tania",
+            "comment": "A bit expensive.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "vegetarians",
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-042",
+        "product_name": "Milk",
+        "category": "Dairy & Eggs",
+        "sub_category": "Butter",
+        "description": "High-quality milk sourced locally.",
+        "price": 496,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "In Stock",
+        "unit": "1kg",
+        "brand": "Daily Delights",
+        "origin": "Bangladesh",
+        "tags": [
+          "snack",
+          "healthy",
+          "vegan",
+          "fresh"
+        ],
+        "rating": 4.3,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "Highly recommended.",
+            "rating": 4
+          },
+          {
+            "user": "Rafi",
+            "comment": "Highly recommended.",
+            "rating": 3
+          }
+        ],
+        "recommended_for": [
+          "health-conscious",
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-043",
+        "product_name": "Rice",
+        "category": "Pantry",
+        "sub_category": "Lentils",
+        "description": "High-quality rice sourced locally.",
+        "price": 223,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "Out of Stock",
+        "unit": "250g",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "breakfast",
+          "protein"
+        ],
+        "rating": 3.7,
+        "reviews": [
+          {
+            "user": "Rafi",
+            "comment": "Highly recommended.",
+            "rating": 3
+          }
+        ],
+        "recommended_for": [
+          "health-conscious",
+          "athletes"
+        ]
+      },
+      {
+        "product_id": "P-044",
+        "product_name": "Wipes",
+        "category": "Baby Products",
+        "sub_category": "Baby Lotion",
+        "description": "High-quality wipes sourced locally.",
+        "price": 481,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Out of Stock",
+        "unit": "12pcs",
+        "brand": "Happy Harvest",
+        "origin": "Bangladesh",
+        "tags": [
+          "fresh",
+          "snack"
+        ],
+        "rating": 4.1,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "A bit expensive.",
+            "rating": 4
+          },
+          {
+            "user": "Nayeem",
+            "comment": "Highly recommended.",
+            "rating": 5
+          },
+          {
+            "user": "Nayeem",
+            "comment": "Highly recommended.",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "health-conscious",
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-045",
+        "product_name": "Coffee (Organic)",
+        "category": "Beverages",
+        "sub_category": "Green Tea",
+        "description": "High-quality coffee sourced locally.",
+        "price": 292,
+        "currency": "BDT",
+        "discount": 10,
+        "stock_status": "In Stock",
+        "unit": "1kg",
+        "brand": "GreenLeaf Organics",
+        "origin": "Bangladesh",
+        "tags": [
+          "organic",
+          "snack",
+          "healthy"
+        ],
+        "rating": 3.6,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "Very good quality!",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "kids",
+          "health-conscious"
+        ]
+      },
+      {
+        "product_id": "P-046",
+        "product_name": "Green Tea",
+        "category": "Beverages",
+        "sub_category": "Coffee",
+        "description": "High-quality green tea sourced locally.",
+        "price": 152,
+        "currency": "BDT",
+        "discount": 5,
+        "stock_status": "Out of Stock",
+        "unit": "12pcs",
+        "brand": "GreenLeaf Organics",
+        "origin": "Bangladesh",
+        "tags": [
+          "healthy",
+          "breakfast",
+          "snack"
+        ],
+        "rating": 4.1,
+        "reviews": [],
+        "recommended_for": [
+          "health-conscious",
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-047",
+        "product_name": "Nuts",
+        "category": "Snacks",
+        "sub_category": "Biscuits",
+        "description": "High-quality nuts sourced locally.",
+        "price": 186,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "Out of Stock",
+        "unit": "1L",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "gluten-free",
+          "snack",
+          "protein"
+        ],
+        "rating": 4.8,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "Tastes great!",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "health-conscious",
+          "kids"
+        ]
+      },
+      {
+        "product_id": "P-048",
+        "product_name": "Spinach (Organic)",
+        "category": "Vegetables",
+        "sub_category": "Carrot",
+        "description": "High-quality spinach sourced locally.",
+        "price": 617,
+        "currency": "BDT",
+        "discount": 15,
+        "stock_status": "In Stock",
+        "unit": "1kg",
+        "brand": "Happy Harvest",
+        "origin": "Bangladesh",
+        "tags": [
+          "protein",
+          "organic",
+          "healthy"
+        ],
+        "rating": 3.9,
+        "reviews": [
+          {
+            "user": "Nayeem",
+            "comment": "A bit expensive.",
+            "rating": 3
+          },
+          {
+            "user": "Tania",
+            "comment": "A bit expensive.",
+            "rating": 5
+          },
+          {
+            "user": "Rafi",
+            "comment": "Highly recommended.",
+            "rating": 3
+          }
+        ],
+        "recommended_for": [
+          "kids",
+          "athletes"
+        ]
+      },
+      {
+        "product_id": "P-049",
+        "product_name": "Fish (Organic)",
+        "category": "Meat & Fish",
+        "sub_category": "Beef",
+        "description": "High-quality fish sourced locally.",
+        "price": 282,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "Out of Stock",
+        "unit": "250g",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "healthy",
+          "snack",
+          "breakfast",
+          "protein"
+        ],
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "Tania",
+            "comment": "Very good quality!",
+            "rating": 3
+          },
+          {
+            "user": "Tania",
+            "comment": "Highly recommended.",
+            "rating": 4
+          }
+        ],
+        "recommended_for": [
+          "families"
+        ]
+      },
+      {
+        "product_id": "P-050",
+        "product_name": "Yogurt",
+        "category": "Dairy & Eggs",
+        "sub_category": "Yogurt",
+        "description": "High-quality yogurt sourced locally.",
+        "price": 327,
+        "currency": "BDT",
+        "discount": 0,
+        "stock_status": "Low Stock",
+        "unit": "12pcs",
+        "brand": "Farm Fresh",
+        "origin": "Bangladesh",
+        "tags": [
+          "snack",
+          "fresh",
+          "breakfast"
+        ],
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "Farhan",
+            "comment": "Very good quality!",
+            "rating": 5
+          }
+        ],
+        "recommended_for": [
+          "athletes"
+        ]
+      }
+    ]
+  }
+]
