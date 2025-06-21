@@ -39,18 +39,22 @@ POLITE_FALLBACK_MSG = (
 )
 
 system_message = (
-    "You are a helpful assistant for a grocery e-commerce shop in Bangladesh. "
-    "Answer the user's questions ONLY using the information provided in the 'Context' section below. "
-    "When the context includes user reviews, summarize the reviews concisely without revealing any usernames or exact comments. "
-    "Use the conversation history to resolve pronouns, references, or ambiguous terms in the user's questions. "
-    "If the question is unrelated to the shop's products, prices, stock, or shopping help, respond politely: "
-    "\"I'm here to help with questions about our grocery store and products. Could you please ask something related to our shop?\"\n\n"
-    "Do NOT use any external knowledge or make up answers. "
-    "Always reference only the 'Context' section when responding."
+    "You are a knowledgeable and helpful assistant for a grocery e-commerce shop in Bangladesh. "
+    "Your goal is to assist customers with a wide range of grocery-related questions including product discovery, "
+    "personalized suggestions, detailed product information (such as price, stock, reviews, and features), "
+    "and frequently asked questions about orders, delivery, returns, and store policies. "
+    "Answer all questions ONLY using the information provided in the 'Context' section below. "
+    "When summarizing user reviews or feedback, keep it concise and do not reveal usernames or exact comments. "
+    "Use the conversation history to resolve pronouns, ambiguous references, or follow-up questions. "
+    "If the question is unrelated to grocery products, shopping assistance, store policies, or FAQs, "
+    "politely respond: \"I'm here to help with questions about our grocery products and services. "
+    "Could you please ask something related to our shop?\"\n\n"
+    "Do NOT use any external knowledge or make up answers beyond the 'Context' provided. "
+    "Always keep your responses accurate, helpful, and focused on the customer's needs."
 )
 
 llm = ChatGroq(
-    model="llama3-8b-8192",
+    model="llama-3.3-70b-versatile",
     temperature=0.7,
     max_retries=2,
 )
@@ -156,12 +160,18 @@ def get_answer_for_session(session_id: str, question: str) -> str:
 
             session = get_qa_chain_for_session(session_id)
             chain = session["chain"]
+            history = get_history(session_id)
+
             inputs = {
                 "context": context,
                 "question": question,
-                "chat_history": format_chat_history(get_history(session_id).messages)
+                "chat_history": format_chat_history(history.messages)
             }
             answer = chain.invoke(inputs, config={"configurable": {"session_id": session_id}})
+
+            # Append messages to history here!
+            history.add_user_message(question)
+            history.add_ai_message(answer)
 
             duration = time.time() - start_time
             print(f"[DEBUG] Answer generated in {duration:.2f} seconds: {answer}\n")
@@ -192,10 +202,17 @@ def get_answer_for_session(session_id: str, question: str) -> str:
                 count = count_products_by_keyword(keyword)
                 duration = time.time() - start_time
                 print(f"[DEBUG] Product count query responded in {duration:.2f} seconds.")
+                # Append to history before returning
+                history = get_history(session_id)
+                history.add_user_message(question)
+                history.add_ai_message(f"We currently have {count} {keyword} products in our grocery shop.")
                 return f"We currently have {count} {keyword} products in our grocery shop."
         total_products = len(faiss_index.index_to_docstore_id)
         duration = time.time() - start_time
         print(f"[DEBUG] Total product count query responded in {duration:.2f} seconds.")
+        history = get_history(session_id)
+        history.add_user_message(question)
+        history.add_ai_message(f"We currently have {total_products} products in our grocery shop.")
         return f"We currently have {total_products} products in our grocery shop."
 
     # 4. Casual greetings
@@ -211,6 +228,9 @@ def get_answer_for_session(session_id: str, question: str) -> str:
         if key in lower_q:
             duration = time.time() - start_time
             print(f"[DEBUG] Casual response generated in {duration:.2f} seconds")
+            history = get_history(session_id)
+            history.add_user_message(question)
+            history.add_ai_message(casual_inputs[key])
             return casual_inputs[key]
 
     # 5. RAG retrieval query with history-enhanced input
@@ -222,11 +242,17 @@ def get_answer_for_session(session_id: str, question: str) -> str:
 
     if not docs:
         print(f"[DEBUG] No documents retrieved for question: {question}")
+        history = get_history(session_id)
+        history.add_user_message(question)
+        history.add_ai_message(POLITE_FALLBACK_MSG)
         return POLITE_FALLBACK_MSG
 
     context = "\n\n".join([doc.page_content.strip() for doc in docs if doc.page_content.strip()])
     if not context:
         print(f"[DEBUG] Retrieved docs, but context is empty for question: {question}")
+        history = get_history(session_id)
+        history.add_user_message(question)
+        history.add_ai_message(POLITE_FALLBACK_MSG)
         return POLITE_FALLBACK_MSG
 
     print(f"[DEBUG] Context for question '{question}':\n{context[:800]}...\n")
@@ -238,8 +264,13 @@ def get_answer_for_session(session_id: str, question: str) -> str:
     }
 
     answer = chain.invoke(inputs, config={"configurable": {"session_id": session_id}})
-    end_time = time.time()
 
+    # Append user and assistant messages
+    history = get_history(session_id)
+    history.add_user_message(question)
+    history.add_ai_message(answer)
+
+    end_time = time.time()
     print(f"[DEBUG] Answer generated in {end_time - start_time:.2f} seconds: {answer}")
 
     return answer
